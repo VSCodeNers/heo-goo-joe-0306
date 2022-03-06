@@ -1,2 +1,5 @@
-# yoon-jeong-0306
-BeakJoon Coding Study with yoon-a, jeong-mi
+# 코딩 스터디
+in BeakJoon  
+  
+Language: Java  
+Member: Yoon A, Jeong Mi  
