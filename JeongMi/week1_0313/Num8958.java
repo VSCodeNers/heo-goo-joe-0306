@@ -1,6 +1,4 @@
 //1주차 문제 - OX퀴즈(8958)
-package JeongMi.week1_0313;
-
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.io.IOException;

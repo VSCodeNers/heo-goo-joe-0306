@@ -1,6 +1,4 @@
 //1주차 문제 - 평균(1546)
-package JeongMi.week1_0313;
-
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.io.IOException;
