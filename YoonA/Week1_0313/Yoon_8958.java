@@ -1,10 +1,9 @@
-import java.io.BufferedInputStream;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
 public class Yoon_8958 {
-    public static void main (String[] args) throws NumberFormatException, IOException {
+    public static void main (String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         int n = Integer.parseInt(br.readLine());
 
@@ -13,12 +12,12 @@ public class Yoon_8958 {
             String st = br.readLine();
 
             for (int j = 0; j < st.length(); j++) {
-                if (st.charAt(i) == 'O') {
+                if (st.charAt(j) == 'O') {
                     combo ++;
                     sum += combo;
                 }
-                else if (st.charAt(i) == 'X')
-                    combo = 1;
+                else if (st.charAt(j) == 'X')
+                    combo = 0;
             }
             System.out.println(sum);
         }
