@@ -11,10 +11,11 @@ public class Num1225 {
         A = st.nextToken();
         B = st.nextToken();
 
-        int result = 0;
+        long result = 0;
         for(int i = 0; i < A.length(); i++) {
             for(int j = 0; j < B.length(); j++) {
                 result += Character.getNumericValue(A.charAt(i)) * Character.getNumericValue(B.charAt(j));
+                //result += Integer.parseInt(A.charAt(i)+"") * Integer.parseInt(B.charAt(j)+"");
             }
         }
 
