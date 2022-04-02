@@ -15,7 +15,7 @@ public class Yoon_1225 {
         
         for (int i = 0; i < a.length(); i++) {
         	for (int j = 0; j < b.length(); j++) {
-        		sum += (a.charAt(i)-'0') * (b.charAt(j)-'0');
+        		sum += (a.charAt(i)-'0') * (b.charAt(j)-'0');   //char -> int
         	}
         }
         System.out.println(sum);
