@@ -1,10 +1,13 @@
 {
     "java.project.sourcePaths": [
+        "YoonA/Week5_0507",
+        "YoonA/Week4_0501",
         "YoonA/Week1_0313",
+        "JeongMi/week5_0507",
         "JeongMi/week4_0501",
         "JeongMi/week3_0403",
         "JeongMi/week2_0327",
         "JeongMi/week1_0313",
-        "JeongMi/week5_0507"
+        "YoonA/Week6_0515"
     ]
 }
