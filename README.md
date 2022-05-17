@@ -3,6 +3,7 @@ in BeakJoon, Programmers
   
 Language: Java  
 Member: Yoon A, Seon Hwa, Jeong Mi  
+Start: 2022.03.06.일  
   
 ### 주차별 문제
 1주차 - 백준: 평균(1546), OX퀴즈(8958)  
