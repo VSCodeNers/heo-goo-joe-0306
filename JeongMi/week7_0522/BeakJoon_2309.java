@@ -1,4 +1,4 @@
-// 일곱난쟁이(2309)
+// 백준 - 일곱난쟁이(2309)
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.io.IOException;
