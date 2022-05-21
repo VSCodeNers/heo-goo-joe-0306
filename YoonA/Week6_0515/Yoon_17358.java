@@ -7,7 +7,7 @@ public class Yoon_17358 {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
         int N = Integer.parseInt(br.readLine());    // 음료 갯수
-        int cup = 1;    // 컵 경우의 수
+        long cup = 1;    // 컵 경우의 수
         int mod = 1000000007;   // 10^9+7
 
         for (int i = 1; i < N; i += 2) {   // 블로그 참고 했는데 cup *= i 부분 잘 이해가 안됨 (cup %= mod는 알겠음)
