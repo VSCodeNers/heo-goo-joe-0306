@@ -56,6 +56,11 @@ public class BeakJoon_3085 {
             }
             cnt++;
         }
+
+        if(!check && c > 0) {
+            if((r+1 < N && candyBoard[r+1][c-1].equals(color)) || (r > 0 && candyBoard[r-1][c-1].equals(color))) cnt++;
+        }
+
         return cnt;
     }
     // 세로(열) 체크
@@ -75,6 +80,11 @@ public class BeakJoon_3085 {
             }
             cnt++;
         }
+
+        if(!check && r > 0) {
+            if((c+1 < N && candyBoard[r-1][c+1].equals(color)) || (c > 0 && candyBoard[r-1][c-1].equals(color))) cnt++;
+        }
+
         return cnt;
     }
 }
