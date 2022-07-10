@@ -5,6 +5,7 @@
         "YoonA/Week5_0507",
         "YoonA/Week4_0501",
         "YoonA/Week1_0313",
+        "JeongMi/week8_0626",
         "JeongMi/week7_0522",
         "JeongMi/week6_0515",
         "JeongMi/week5_0507",
@@ -12,7 +13,7 @@
         "JeongMi/week3_0403",
         "JeongMi/week2_0327",
         "JeongMi/week1_0313",
-        "JeongMi/week8_0626"
+        "JeongMi/week9_0710"
     ],
     "java.jdt.ls.vmargs": "-XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx2G -Xms100m"
 }
