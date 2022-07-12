@@ -24,5 +24,6 @@ public class BeakJoon_1476 {
         System.out.print(year);
     }
 }
+// year = 15 * ?? + E = 28 * ?? + S = 19 * ?? + M
 // year % 15 == E 이런식으로 하면 E가 15일 때 해당이 안 됨.
 // (year - E) % 15 == 0 이렇게 해야 모든 경우가 해당됨
