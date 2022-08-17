@@ -30,24 +30,6 @@ public class Yoon_BJ15655 {
     }
 
     public static void NM(int start) {
-        // if (dep == M) {
-        // for (int i = 0; i < M; i++) {
-        // System.out.print(res[i] + " ");
-        // }
-        // System.out.println();
-        // } else {
-        // for (int i = start; i < N; i++) {
-        // if (check[i] == true) // 이미 출력한 숫자면 패스
-        // continue;
-        // else {
-        // check[i] = true;
-        // res[dep] = num[i];
-        // NM(start+1, dep + 1);
-        // check[i] = false;
-
-        // }
-        // }
-        // }
         if (start == M) {
             for (int i = 0; i < M; i++) {
                 System.out.print(res[i] + " ");
@@ -55,9 +37,9 @@ public class Yoon_BJ15655 {
             System.out.println();
         } else {
             for (int i = 0; i < N; i++) {
-                if (check[i] == true)
+                if (check[i] == true)   // 이미 했다면 걍 넘어감
                     continue;
-                if (start != 0 && res[start - 1] > num[i])
+                if (start != 0 && res[start - 1] > num[i]) 
                     continue;
                 else {
                     check[i] = true;
@@ -72,7 +54,10 @@ public class Yoon_BJ15655 {
 
 /*
  * start == M 은 start가 M이 되면 내려가서 다음 줄에서 출력
+ * ex. 예제2는 M이 2니까 한 줄에 두개씩
+ * 이미 체크한 수거나 res 그 전 배열이 현재 넣을 수보다 작으면 걍 넘어감
+ * ex. 예제2에서 1 7 / 1 8 / 1 9는 7,8,9가 1보다 크니까(res[start-1] < num[i]) 출력
+ *              7 1 / 8 7 등은 start-1(7, 8)보다 num[i](1, 7)이 작으니까 출력 XX
  * 밑에 else문 - 우선 check = true로 바꿔놓고 res 배열에 num 배열 값을 넣음
  * 그리고 start 1 증가 시켜줌
- * 
  */
