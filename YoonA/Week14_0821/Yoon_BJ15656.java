@@ -30,7 +30,7 @@ public class Yoon_BJ15656 {
 
         NM(0);
 
-        System.out.println(sb);
+        System.out.print(sb);
     }
 
     public static void NM(int start) {

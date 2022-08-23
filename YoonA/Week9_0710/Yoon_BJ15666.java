@@ -4,14 +4,13 @@ import java.io.InputStreamReader;
 import java.util.Arrays;
 import java.util.StringTokenizer;
 
-public class Yoon_BJ15657 {
-    private static StringBuilder sb = new StringBuilder();
+public class Yoon_BJ15666 {
     private static BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+    private static StringBuilder sb = new StringBuilder();
 
     private static int N, M;
     private static int num[];
     private static int res[];
-    private static boolean check[];
 
     public static void main(String[] args) throws IOException {
         StringTokenizer st = new StringTokenizer(br.readLine());
@@ -20,16 +19,13 @@ public class Yoon_BJ15657 {
 
         num = new int[N];
         res = new int[N];
-        check = new boolean[N];
 
         st = new StringTokenizer(br.readLine());
         for (int i = 0; i < N; i++) {
             num[i] = Integer.parseInt(st.nextToken());
         }
         Arrays.sort(num);
-
         NM(0);
-
         System.out.print(sb);
     }
 
@@ -40,18 +36,18 @@ public class Yoon_BJ15657 {
             }
             sb.append("\n");
         } else {
+            int value = 0; // 이전 값을 기억하는 용도
             for (int i = 0; i < N; i++) {
-                if (start != 0 && res[start - 1] > num[i]) // 앞 숫자가 현재 넣으려는 수보다 크면 X
+                if (value == num[i]) // for문 돌다가 이전이랑 같은 값 나오면 패스
                     continue;
-
-                res[start] = num[i];
-                NM(start + 1);
+                if (start != 0 && res[start - 1] > num[i])
+                    continue;
+                else {
+                    res[start] = num[i];
+                    NM(start + 1);
+                    value = num[i];
+                }
             }
         }
     }
 }
-
-/*
- * 시간 초과 때문에 System.out.println가 아닌 Stringbilder 사용함
- * 43번 라인 예시 - 예제2에 7 8 9보면 7이 1보다 크니까 7 1은 없음, 8도 1이랑 7보다 크니까 8 1, 8 7 없음
- */
