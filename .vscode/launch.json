@@ -1,0 +1,189 @@
+{
+    // IntelliSense를 사용하여 가능한 특성에 대해 알아보세요.
+    // 기존 특성에 대한 설명을 보려면 가리킵니다.
+    // 자세한 내용을 보려면 https://go.microsoft.com/fwlink/?linkid=830387을(를) 방문하세요.
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch BeakJoon_1476",
+            "request": "launch",
+            "mainClass": "BeakJoon_1476",
+            "projectName": "heo-goo-joe-0306_10b47f03"
+        },
+        {
+            "type": "java",
+            "name": "Launch BeakJoon_2309",
+            "request": "launch",
+            "mainClass": "BeakJoon_2309",
+            "projectName": "heo-goo-joe-0306_10b47f03"
+        },
+        {
+            "type": "java",
+            "name": "Launch BeakJoon_3085",
+            "request": "launch",
+            "mainClass": "BeakJoon_3085",
+            "projectName": "heo-goo-joe-0306_10b47f03"
+        },
+        {
+            "type": "java",
+            "name": "Launch Num10773",
+            "request": "launch",
+            "mainClass": "Num10773",
+            "projectName": "heo-goo-joe-0306_10b47f03"
+        },
+        {
+            "type": "java",
+            "name": "Launch Num10870",
+            "request": "launch",
+            "mainClass": "Num10870",
+            "projectName": "heo-goo-joe-0306_10b47f03"
+        },
+        {
+            "type": "java",
+            "name": "Launch Num1100",
+            "request": "launch",
+            "mainClass": "Num1100",
+            "projectName": "heo-goo-joe-0306_10b47f03"
+        },
+        {
+            "type": "java",
+            "name": "Launch Num11047",
+            "request": "launch",
+            "mainClass": "Num11047",
+            "projectName": "heo-goo-joe-0306_10b47f03"
+        },
+        {
+            "type": "java",
+            "name": "Launch Num11399",
+            "request": "launch",
+            "mainClass": "Num11399",
+            "projectName": "heo-goo-joe-0306_10b47f03"
+        },
+        {
+            "type": "java",
+            "name": "Launch Num1225",
+            "request": "launch",
+            "mainClass": "Num1225",
+            "projectName": "heo-goo-joe-0306_10b47f03"
+        },
+        {
+            "type": "java",
+            "name": "Launch Num1546",
+            "request": "launch",
+            "mainClass": "Num1546",
+            "projectName": "heo-goo-joe-0306_10b47f03"
+        },
+        {
+            "type": "java",
+            "name": "Launch Num17283",
+            "request": "launch",
+            "mainClass": "Num17283",
+            "projectName": "heo-goo-joe-0306_10b47f03"
+        },
+        {
+            "type": "java",
+            "name": "Launch Num17358",
+            "request": "launch",
+            "mainClass": "Num17358",
+            "projectName": "heo-goo-joe-0306_10b47f03"
+        },
+        {
+            "type": "java",
+            "name": "Launch Num20310",
+            "request": "launch",
+            "mainClass": "Num20310",
+            "projectName": "heo-goo-joe-0306_10b47f03"
+        },
+        {
+            "type": "java",
+            "name": "Launch Num7568",
+            "request": "launch",
+            "mainClass": "Num7568",
+            "projectName": "heo-goo-joe-0306_10b47f03"
+        },
+        {
+            "type": "java",
+            "name": "Launch Num8958",
+            "request": "launch",
+            "mainClass": "Num8958",
+            "projectName": "heo-goo-joe-0306_10b47f03"
+        },
+        {
+            "type": "java",
+            "name": "Launch Yoon_11047",
+            "request": "launch",
+            "mainClass": "Yoon_11047",
+            "projectName": "heo-goo-joe-0306_10b47f03"
+        },
+        {
+            "type": "java",
+            "name": "Launch Yoon_11399",
+            "request": "launch",
+            "mainClass": "Yoon_11399",
+            "projectName": "heo-goo-joe-0306_10b47f03"
+        },
+        {
+            "type": "java",
+            "name": "Launch Yoon_1476",
+            "request": "launch",
+            "mainClass": "Yoon_1476",
+            "projectName": "heo-goo-joe-0306_10b47f03"
+        },
+        {
+            "type": "java",
+            "name": "Launch Yoon_1546",
+            "request": "launch",
+            "mainClass": "Yoon_1546",
+            "projectName": "heo-goo-joe-0306_10b47f03"
+        },
+        {
+            "type": "java",
+            "name": "Launch Yoon_17283",
+            "request": "launch",
+            "mainClass": "Yoon_17283",
+            "projectName": "heo-goo-joe-0306_10b47f03"
+        },
+        {
+            "type": "java",
+            "name": "Launch Yoon_17358",
+            "request": "launch",
+            "mainClass": "Yoon_17358",
+            "projectName": "heo-goo-joe-0306_10b47f03"
+        },
+        {
+            "type": "java",
+            "name": "Launch Yoon_20310",
+            "request": "launch",
+            "mainClass": "Yoon_20310",
+            "projectName": "heo-goo-joe-0306_10b47f03"
+        },
+        {
+            "type": "java",
+            "name": "Launch Yoon_2309",
+            "request": "launch",
+            "mainClass": "Yoon_2309",
+            "projectName": "heo-goo-joe-0306_10b47f03"
+        },
+        {
+            "type": "java",
+            "name": "Launch Yoon_7568",
+            "request": "launch",
+            "mainClass": "Yoon_7568",
+            "projectName": "heo-goo-joe-0306_10b47f03"
+        },
+        {
+            "type": "java",
+            "name": "Launch Yoon_8958",
+            "request": "launch",
+            "mainClass": "Yoon_8958",
+            "projectName": "heo-goo-joe-0306_10b47f03"
+        }
+    ]
+}
