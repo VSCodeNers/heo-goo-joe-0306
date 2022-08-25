@@ -36,9 +36,9 @@ public class Yoon_BJ15666 {
             }
             sb.append("\n");
         } else {
-            int value = 0; // 이전 값을 기억하는 용도
+            int value = 0;                  // 이전 값을 기억하는 용도
             for (int i = 0; i < N; i++) {
-                if (value == num[i]) // for문 돌다가 이전이랑 같은 값 나오면 패스
+                if (value == num[i])        // for문 돌다가 이전이랑 같은 값 나오면 패스
                     continue;
                 if (start != 0 && res[start - 1] > num[i])
                     continue;
