@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch BeakJoon_10973",
+            "request": "launch",
+            "mainClass": "BeakJoon_10973",
+            "projectName": "heo-goo-joe-0306_9d8be849"
+        },
+        {
+            "type": "java",
             "name": "Launch BeakJoon_10972",
             "request": "launch",
             "mainClass": "BeakJoon_10972",
