@@ -50,5 +50,9 @@ public class Yoon_BJ10819 {
         }
     }
 }
-// Arr 다 채웠으면 이 배열을 식대로 계산해서 sum에 넣고
-// sum이랑 최댓값(max) 비교해서 더 큰 걸 max에 넣음
+
+/* permutation()은 일단 순열?로 풀었길래 아래 for문은 예전에 해놨던 코드 적었고
+ * start == M 부분은 
+ * Arr 다 채웠으면 이 배열을 식대로 계산해서 sum에 넣고
+ * sum이랑 최댓값(max) 비교해서 더 큰 걸 max에 넣음
+ */
