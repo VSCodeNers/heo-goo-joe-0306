@@ -4,48 +4,47 @@ import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
 public class Yoon_BJ10971 {
-    private static StringBuilder sb = new StringBuilder();
-    private static int[] S, lotto;
-    private static int k;
+    private static int N;
+    private static long cost_min;
+    private static int W[][];
+    private static boolean check[];
 
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        N = Integer.parseInt(br.readLine());
 
-        while (true) {
+        cost_min = Integer.MAX_VALUE;
+        W = new int[N][N];
+        check = new boolean[N];
+
+        for (int i = 0; i < N; i++) {
             StringTokenizer st = new StringTokenizer(br.readLine());
-
-            k = Integer.parseInt(st.nextToken());
-            if (k == 0) {
-                break;
+            for (int j = 0; j < N; j++) {
+                W[i][j] = Integer.parseInt(st.nextToken());
             }
-
-            S = new int[k];
-            lotto = new int[6];
-
-            for (int i = 0; i < k; i++) {
-                S[i] = Integer.parseInt(st.nextToken());
-            }
-
-            permu(0);
-            System.out.println();
-
         }
 
+        for (int i = 0; i < N; i++) {
+            check[i] = true;
+            DFS(i, i, 0, 0);
+            check[i] = false;
+        }
+        System.out.println(cost_min);
     }
 
-    private static void permu(int start) {
-        if (start == 6) {
-            for (int i = 0; i < 6; i++) {
-                System.out.print(lotto[i] + " ");
+    public static void DFS(int start, int now, int depth, long cost) {
+        if (depth == N - 1) {
+            if (W[now][start] != 0) {
+                cost_min = Math.min(cost_min, cost + W[now][start]);
             }
-            System.out.println();
             return;
         }
-
-        for (int i = start; i < k; i++) {
-            lotto[start] = S[i];
-            permu(i + 1);
+        for (int i = 0; i < N; i++) {
+            if (!check[i] && W[now][i] != 0) {
+                check[i] = true;
+                DFS(start, i, depth + 1, cost + W[now][i]);
+                check[i] = false;
+            }
         }
-
     }
 }

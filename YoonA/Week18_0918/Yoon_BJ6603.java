@@ -11,7 +11,7 @@ public class Yoon_BJ6603 {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
-        while (true) {
+        while (true) { // 무한 루프 돌다가 k -> 0 되면 종료
             StringTokenizer st = new StringTokenizer(br.readLine());
 
             k = Integer.parseInt(st.nextToken());
@@ -28,9 +28,7 @@ public class Yoon_BJ6603 {
 
             permu(0, 0);
             System.out.println();
-
         }
-
     }
 
     private static void permu(int start, int depth) {
@@ -46,6 +44,12 @@ public class Yoon_BJ6603 {
             lotto[depth] = S[i];
             permu(i + 1, depth + 1);
         }
-
     }
 }
+
+/*
+ * 깊이(depth)가 6이 될 때까지 for문 반복함 -> 로또 번호 여섯개니깐
+ * depth == 6이 되면 lotto에 담아놓은거 출력
+ * 그 다음에 이전 수로 돌아가서 고르지 않았던 번호를 고름
+ * ex. [1, 2, 3, 4, 5, 6] -> [1, 2, 3, 4, 5, 7] -> [1, 2, 3, 4, 6, 7] 머 이렇게
+ */
