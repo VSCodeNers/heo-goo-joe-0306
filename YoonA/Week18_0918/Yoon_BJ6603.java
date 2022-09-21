@@ -1,14 +1,12 @@
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.util.Arrays;
 import java.util.StringTokenizer;
 
 public class Yoon_BJ6603 {
+    private static StringBuilder sb = new StringBuilder();
+    private static int[] S, lotto;
     private static int k;
-    private static int S[];
-    private static int lotto[];
-    private static boolean check[];
 
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
@@ -17,12 +15,12 @@ public class Yoon_BJ6603 {
             StringTokenizer st = new StringTokenizer(br.readLine());
 
             k = Integer.parseInt(st.nextToken());
-            if (k == 0)
+            if (k == 0) {
                 break;
+            }
 
             S = new int[k];
             lotto = new int[6];
-            check = new boolean[k];
 
             for (int i = 0; i < k; i++) {
                 S[i] = Integer.parseInt(st.nextToken());
@@ -30,10 +28,12 @@ public class Yoon_BJ6603 {
 
             permu(0, 0);
             System.out.println();
+
         }
+
     }
 
-    public static void permu(int start, int depth) {
+    private static void permu(int start, int depth) {
         if (depth == 6) {
             for (int i = 0; i < 6; i++) {
                 System.out.print(lotto[i] + " ");
@@ -44,7 +44,8 @@ public class Yoon_BJ6603 {
 
         for (int i = start; i < k; i++) {
             lotto[depth] = S[i];
-            permu(start + 1, depth + 1);
+            permu(i + 1, depth + 1);
         }
+
     }
 }
