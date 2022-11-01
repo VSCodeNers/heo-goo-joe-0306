@@ -4,6 +4,8 @@
     // 자세한 내용을 보려면 https://go.microsoft.com/fwlink/?linkid=830387을(를) 방문하세요.
     "version": "0.2.0",
     "configurations": [
+        
+
         {
             "type": "java",
             "name": "Launch BeakJoon_10971",
@@ -225,6 +227,13 @@
             "name": "Launch Yoon_8958",
             "request": "launch",
             "mainClass": "Yoon_8958",
+            "projectName": "heo-goo-joe-0306_10b47f03"
+        },
+        {
+            "type": "java",
+            "name": "Launch Yoon_BJ14501",
+            "request": "launch",
+            "mainClass": "Yoon_BJ14501",
             "projectName": "heo-goo-joe-0306_10b47f03"
         }
     ]

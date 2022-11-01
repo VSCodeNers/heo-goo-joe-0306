@@ -19,6 +19,7 @@ public class Yoon_1546 {
 		}
 		avg = (sum / M * 100) / 3;
 
+		sc.close();
 		System.out.print(avg);
 	}
 }

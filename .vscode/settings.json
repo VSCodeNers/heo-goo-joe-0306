@@ -1,5 +1,8 @@
 {
     "java.project.sourcePaths": [
+        "YoonA/Week19_1106",
+        "YoonA/Week9_0710",
+        "YoonA/Week8_0626",
         "YoonA/Week7_0522",
         "YoonA/Week6_0515",
         "YoonA/Week5_0507",
@@ -13,13 +16,7 @@
         "JeongMi/week3_0403",
         "JeongMi/week2_0327",
         "JeongMi/week1_0313",
-<<<<<<< HEAD
         "JeongMi/week9_0710"
-=======
-        "JeongMi/week8_0626",
-        "YoonA\\Week9_0710",
-        "YoonA\\Week8_0626"
->>>>>>> f9f9102c8921094928a97b21c07150cb08a7067c
     ],
     "java.jdt.ls.vmargs": "-XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx2G -Xms100m"
 }
