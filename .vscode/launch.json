@@ -8,6 +8,20 @@
 
         {
             "type": "java",
+            "name": "Launch BeakJoon_14501",
+            "request": "launch",
+            "mainClass": "BeakJoon_14501",
+            "projectName": "heo-goo-joe-0306_9d8be849"
+        },
+        {
+            "type": "java",
+            "name": "Launch BeakJoon_1759",
+            "request": "launch",
+            "mainClass": "BeakJoon_1759",
+            "projectName": "heo-goo-joe-0306_9d8be849"
+        },
+        {
+            "type": "java",
             "name": "Launch BeakJoon_10971",
             "request": "launch",
             "mainClass": "BeakJoon_10971",
