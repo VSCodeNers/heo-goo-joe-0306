@@ -6,16 +6,17 @@ import java.util.StringTokenizer;
 
 public class Yoon_BJ1759 {
     public static int L, C;
+    public static char password[];
     public static char ch[];
-    public static boolean check[];
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-        L = Integer.parseInt(br.readLine());
-        C = Integer.parseInt(br.readLine());
-        ch = new char[C];
-        check = new boolean[C];
-        
         StringTokenizer st = new StringTokenizer(br.readLine());
+        L = Integer.parseInt(st.nextToken());
+        C = Integer.parseInt(st.nextToken());
+        ch = new char[C];
+        password = new char[C];
+        
+        st = new StringTokenizer(br.readLine());
         for (int i = 0; i < C; i++) {
             ch[i] = st.nextToken().charAt(0);
         }
@@ -25,32 +26,39 @@ public class Yoon_BJ1759 {
     }
 
     public static void DP(int start, int count) {
-        int vowel = 0;          // 모음
-        int consonant = 0;      // 자음
-        String password ="";
+        if (count == L) {
+            if (check()) {
+                for (int i = 0; i < L; i++) {
+                    System.out.print(password[i]);
+                }
+                System.out.println();
+            }
+            return;
+        }
 
         for (int i = start; i < C; i++) {
-            check[i] = true;
-            DP(i+1, start+1);
-            check[i] = false;
+                password[count] = ch[i];
+                DP(i+1, count+1);
         }
-        if (count == C) {
-            if (vowel >= 1 && consonant >= 2) {
-                System.out.println(password);
+    }
+
+    public static boolean check() {
+        int vowel = 0;          // 모음
+        int consonant = 0;      // 자음
+
+        for (int i = 0; i < C; i++) {
+            if (password[i] == 'a' || password[i] == 'e' || password[i] == 'i' 
+                    || password[i] == 'o' || password[i] == 'u') {
+                vowel++;
             }
-
-            for (int i = 0; i < C; i++) {
-                if (check[i] == true) {
-                    password += ch[i];
-
-                    if (ch[i] == 'a' || ch[i] == 'e' || ch[i] == 'i' || ch[i] == 'o' || ch[i] == 'u') {
-                        vowel++;
-                    }
-                    else {
-                        consonant++;
-                    }
-                }
+            else {
+                consonant++;
             }
         }
+
+        if (vowel >= 1 && consonant >= 2) {
+            return true;
+        }
+        return false;
     }
 }
