@@ -4,8 +4,27 @@
     // 자세한 내용을 보려면 https://go.microsoft.com/fwlink/?linkid=830387을(를) 방문하세요.
     "version": "0.2.0",
     "configurations": [
-        
-
+        {
+            "type": "java",
+            "name": "Launch BeakJoon_14889",
+            "request": "launch",
+            "mainClass": "BeakJoon_14889",
+            "projectName": "heo-goo-joe-0306_9d8be849"
+        },
+        {
+            "type": "java",
+            "name": "Launch BeakJoon_15661",
+            "request": "launch",
+            "mainClass": "BeakJoon_15661",
+            "projectName": "heo-goo-joe-0306_9d8be849"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main",
+            "request": "launch",
+            "mainClass": "Main",
+            "projectName": "heo-goo-joe-0306_9d8be849"
+        },
         {
             "type": "java",
             "name": "Launch BeakJoon_14501",
