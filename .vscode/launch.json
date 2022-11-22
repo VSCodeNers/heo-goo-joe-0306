@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Heart_to_mary",
+            "request": "launch",
+            "mainClass": "Heart_to_mary",
+            "projectName": "heo-goo-joe-0306_9d8be849"
+        },
+        {
+            "type": "java",
             "name": "Launch BeakJoon_14889",
             "request": "launch",
             "mainClass": "BeakJoon_14889",
