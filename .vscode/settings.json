@@ -19,7 +19,11 @@
         "JeongMi/week2_0327",
         "JeongMi/week20_1113",
         "JeongMi/week1_0313",
+<<<<<<< HEAD
         "JeongMi/week21_1127"
+=======
+        "YoonA/Week21_1127"
+>>>>>>> c007765bb0cfb7643eabff6f8f82de4c7cb08e80
     ],
     "java.jdt.ls.vmargs": "-XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx2G -Xms100m"
 }

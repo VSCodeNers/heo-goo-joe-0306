@@ -6,6 +6,7 @@
     "configurations": [
         {
             "type": "java",
+<<<<<<< HEAD
             "name": "Launch Beakjoon_11723",
             "request": "launch",
             "mainClass": "Beakjoon_11723",
@@ -17,6 +18,19 @@
             "request": "launch",
             "mainClass": "Beakjoon_2529",
             "projectName": "heo-goo-joe-0306_9d8be849"
+=======
+            "name": "Launch Yoon_BJ11723",
+            "request": "launch",
+            "mainClass": "Yoon_BJ11723",
+            "projectName": "heo-goo-joe-0306_448766ac"
+        },
+        {
+            "type": "java",
+            "name": "Launch Yoon_BJ2529",
+            "request": "launch",
+            "mainClass": "Yoon_BJ2529",
+            "projectName": "heo-goo-joe-0306_448766ac"
+>>>>>>> c007765bb0cfb7643eabff6f8f82de4c7cb08e80
         },
         {
             "type": "java",
