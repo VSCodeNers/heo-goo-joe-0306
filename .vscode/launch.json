@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Yoon_BJ1182",
+            "request": "launch",
+            "mainClass": "Yoon_BJ1182",
+            "projectName": "heo-goo-joe-0306_448766ac"
+        },
+        {
+            "type": "java",
             "name": "Launch Yoon_BJ11723",
             "request": "launch",
             "mainClass": "Yoon_BJ11723",

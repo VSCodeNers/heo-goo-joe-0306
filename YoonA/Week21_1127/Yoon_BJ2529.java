@@ -23,8 +23,8 @@ public class Yoon_BJ2529 {
         dfs(0, " ");
         Collections.sort(list);    
 
-        System.out.println(list.get(list.size() - 1));     // 최대값
-        System.out.println(list.get(0));            // 최소값
+        System.out.println(list.get(list.size() - 1));      // 최대값
+        System.out.println(list.get(0));                    // 최소값
     }
 
     public static void dfs(int count, String num) {
