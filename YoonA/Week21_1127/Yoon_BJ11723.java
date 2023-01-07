@@ -30,6 +30,7 @@ public class Yoon_BJ11723 {
                 case "check":
                     N = Integer.parseInt(st.nextToken());
 
+                    // N이 존재하면 1 아니면 0 출력
                     if(set.contains(N)) 
                         sb.append("1\n");
                     else 
@@ -39,6 +40,7 @@ public class Yoon_BJ11723 {
                 case "toggle":
                     N = Integer.parseInt(st.nextToken());
 
+                    // N이 존재하면 set.remove(N) 아니면 N 추가
                     if(set.contains(N)) 
                         set.remove(N);
                     else   
@@ -50,6 +52,7 @@ public class Yoon_BJ11723 {
                         set.add(j);
                         break;
 
+                // 0으로 만들어야 하기 때문에
                 case "empty":
                     set.clear();
                     break;
@@ -58,10 +61,3 @@ public class Yoon_BJ11723 {
         System.out.println(sb.toString());
     }
 }
-
-/* 26
-1101    1101
-0101    0101
-0110    0001
-0010    0010
- */
