@@ -23,7 +23,7 @@ public class Yoon_BJ1182 {
         Cal(0, 0);
 
         if (S == 0) {
-            count--;
+            count--;            // S가 0이면 시작 하자마자 count 1 증가하므로
             System.out.println(count);
         }
         else {
@@ -32,13 +32,17 @@ public class Yoon_BJ1182 {
     }
 
     public static void Cal(int start, int sum) {
-        if (start == N) {       // N만큼 반복했고,
-            if (sum == S) {     // 배열을 더한 값이 S와 같다면
-                count++;        // S가 되는 경우의 수가 하나 증가해야 함.
+        if (start == N) {       // N만큼 반복했다면 리턴
+            if (sum == S) {     // 더한 값과 S가 같다면
+                count++;        // S가 되는 경우의 수가 하나 증가해야 함
             }
             return;
         }
-        Cal(start + 1, sum + suten[start]);     // 현재 sum에 start번째 배열에 든 값을 더함.
+
+        // 잘 몰라서 찾아봄.
+        // 현재 suten[start] 값도 더한 경우, 더하지 않은 경우
+        // 이 두 가지로 나누어 탐색한다고 함
+        Cal(start + 1, sum + suten[start]);
         Cal(start + 1, sum);
     }
 }
