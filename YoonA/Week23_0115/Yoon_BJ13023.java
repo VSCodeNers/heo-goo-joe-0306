@@ -45,7 +45,6 @@ public class Yoon_BJ13023 {
     public static void Cal(int start, int count) {
         if (count >= 4) {
             status = true;
-            return;
         }
 
         for (int i : friends[start]) {
