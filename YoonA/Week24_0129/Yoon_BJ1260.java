@@ -44,14 +44,14 @@ public class Yoon_BJ1260 {
         System.out.print(start + " ");          // 수행 결과 하나씩 출력
 
         for (int i = 0; i < res.length; i++) {
-            if (res[start][i] && !check[i]) {
-                DFS(i);
+            if (res[start][i] && !check[i]) {   // 방문하지 않았거나 연결은 되어있는 경우
+                DFS(i);                         // 또 탐색
             }
         }
     }
 
     public static void BFS(int start) {
-        Queue<Integer> queue = new LinkedList<>();
+        Queue<Integer> queue = new LinkedList<>();      // 큐 사용.. 잘 몰라
         
         check[start] = true;                    // 방문 했다고 표시
         queue.add(start);
