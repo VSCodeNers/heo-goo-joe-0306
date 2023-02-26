@@ -64,12 +64,13 @@ public class Yoon_BJ4963 {
             int yy = y + mapY[i];
 
             // 범위를 벗어나지 않은 경우
-            if(xx < 0 && yy < 0 && xx < w && yy < h) {
+            if(xx >= 0 && yy >= 0 && xx < h && yy < w) {
                 //땅이고, 아직 방문하지 않은 경우
-                if (map[xx][yy] == 1 && !check[xx][yy])
+                if (map[xx][yy] == 1 && !check[xx][yy]) {
                     check[xx][yy] = true;
                     // 연결된 땅을 모두 방문함
                     DFS(xx, yy);
+                }
             }
         }
     }
