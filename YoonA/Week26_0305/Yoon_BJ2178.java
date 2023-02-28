@@ -35,11 +35,23 @@ public class Yoon_BJ2178 {
 
     public static void BFS(int x, int y) {
         Queue queue = new LinkedList<>();
-        queue.add(new Point(x, y));
-        
+        queue.add(new int[]{x, y});
+
         check[x][y] = true;
 
         int mapX[] = {0, -1, 1, 0};
         int mapY[] = {-1, 0, 0, 1};
+
+        while(!queue.isEmpty()) {
+            
+            for (int i = 0; i < 4; i++) {
+                int xx = x + mapX[i];
+                int yy = y + mapY[i];
+    
+                if (xx >= 0 && yy >= 0 && xx < N && yy < M) {
+                    
+                }
+            }
+        }
     }
 }
