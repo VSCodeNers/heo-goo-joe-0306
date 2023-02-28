@@ -15,8 +15,8 @@ public class Yoon_BJ2667 {
 
         N = Integer.parseInt(br.readLine());
 
-        map = new int[N][N];
-        check = new boolean[N][N];
+        map = new int[N][N];            // 지도
+        check = new boolean[N][N];      // 방문 여부 표시
 
         for (int i = 0; i < N; i++) {
             String s = br.readLine();
@@ -37,9 +37,12 @@ public class Yoon_BJ2667 {
             }
         }
 
+        // ArrayList 오름차순 정렬
         Collections.sort(list);
+        // 단지 수는 ArrayList 수만큼이므로
         System.out.println(list.size());
 
+        // 단지 내의 집 수를 출력함
         for (int i = 0; i < list.size(); i++) {
             System.out.println(list.get(i));
         }
@@ -63,7 +66,7 @@ public class Yoon_BJ2667 {
                 //집이 있고, 아직 방문하지 않은 경우
                 if (map[xx][yy] == 1 && !check[xx][yy]) {
                     check[xx][yy] = true;
-                    // 연결된 땅을 모두 방문함
+                    // 조건에 만족하는 경우, 연결된 다른 땅을 방문하고 단지 내의 집 수 증가
                     DFS(xx, yy);
                     count++;
                 }
@@ -72,14 +75,3 @@ public class Yoon_BJ2667 {
         return count;
     }
 }
-
-/* 
-7
-0110100
-0110101
-1110101
-0000111
-0100000
-0111110
-0111000 
- */
