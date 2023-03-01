@@ -42,8 +42,9 @@ public class Yoon_BJ2178 {
         int mapX[] = {0, -1, 1, 0};
         int mapY[] = {-1, 0, 0, 1};
 
+        // 좌표 탐색 끝날 때까지 반복
         while(!queue.isEmpty()) {
-            
+
             for (int i = 0; i < 4; i++) {
                 int xx = x + mapX[i];
                 int yy = y + mapY[i];
