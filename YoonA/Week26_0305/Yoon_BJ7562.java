@@ -33,7 +33,7 @@ public class Yoon_BJ7562 {
             int xx = x + mapX[i];
             int yy = y + mapY[i];
 
-            // 범위를 벗어난 경우 => 패스
+            // 범위를 벗어나지 않은 경우
             if(xx >= 0 && yy >= 0 && xx < N && yy < M) {
                 // 아직 방문하지 않은 경우
                 if (!check[xx][yy]) {

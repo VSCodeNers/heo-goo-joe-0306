@@ -28,7 +28,9 @@ public class Yoon_BJ2178 {
                 Maze[i][j] = s.charAt(j) - '0';
             }
         }
-        check[0][0] = true; // 현재 위치는 방문한걸로 표시
+
+         // 현재 위치는 방문한걸로 표시
+        check[0][0] = true;
         BFS(0, 0);
         System.out.println(Maze[N-1][M-1]);
     }
@@ -49,6 +51,7 @@ public class Yoon_BJ2178 {
                 int xx = x + mapX[i];
                 int yy = y + mapY[i];
     
+                // 범위 안일 경우
                 if (xx >= 0 && yy >= 0 && xx < N && yy < M) {
                     
                 }
