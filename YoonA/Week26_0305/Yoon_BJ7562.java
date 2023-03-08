@@ -24,7 +24,7 @@ public class Yoon_BJ7562 {
         }
     }
 
-    public static DFS(int start, int count) {
+    public static BFS(int start, int count) {
         // 나이트가 이동하고자 하는 칸
         int mapX[] = {-1, -2, -2, -1, 1, 2, 2, 1};
         int mapY[] = {-2, -1, 1, 2, 2, 1, -1, -2};
