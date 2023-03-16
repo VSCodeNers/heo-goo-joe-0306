@@ -1,6 +1,7 @@
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
+import java.util.Queue;
 import java.util.StringTokenizer;
 
 public class Yoon_BJ7562 {
@@ -24,11 +25,14 @@ public class Yoon_BJ7562 {
         }
     }
 
-    public static BFS(int start, int count) {
+    public static void BFS() {
+        Queue<Point> q = new LinkedList<>();
+        q.offer(new Point(x, y));
         // 나이트가 이동하고자 하는 칸
         int mapX[] = {-1, -2, -2, -1, 1, 2, 2, 1};
         int mapY[] = {-2, -1, 1, 2, 2, 1, -1, -2};
 
+        // 여덟 방향 탐색
         for (int i = 0; i < 8; i++) {
             int xx = x + mapX[i];
             int yy = y + mapY[i];
@@ -39,10 +43,9 @@ public class Yoon_BJ7562 {
                 if (!check[xx][yy]) {
                     check[xx][yy] = true;
                     // 연결된 땅을 모두 방문함
-                    DFS(xx, yy);
+                    BFS(xx, yy);
                 }
             }
-            
         }
     }
 }
