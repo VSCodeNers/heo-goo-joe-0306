@@ -1,11 +1,13 @@
 # 👩🏻‍💻 Java Coding Study 👨🏻‍💻
-in BeakJoon, Programmers  
-  
+
+in BeakJoon, Programmers
+
 Language: Java  
-Member: Yoon A, Jeong Mi, Seon Hwa, Byeong Jae, Min Seok  
-Start: 2022.03.06.일  
-  
+Member: Yoon A, Jeong Mi, Seon Hwa, Byung Jae, Min Seok  
+Start: 2022.03.06.일
+
 ### 👵🏻 Weekly Study - Old Version 👴🏻
+
 1주차 - 백준: 평균(1546), OX퀴즈(8958)  
 2주차 - 백준: 이상한 곱셈(1225), 하얀 칸(1100)  
 3주차 - 백준: 피보나치 수 5(10870), 제로(10773)  
@@ -33,12 +35,13 @@ Start: 2022.03.06.일
 25주차 - 백준: 섬의 개수(4963), 단지 번호 붙이기(2667) / 프로그래머스: 모의고사(Lv.1)  
 26주차 - 프로그래머스: K번째수(Lv.1)  
 27주차 - 백준: 미로 탐색(2178), 나이트의 이동(7562) / 프로그래머스: 완주하지 못한 선수(Lv.1)  
-28주차 - 백준: 숨바꼭질(1697), 트리 순회(1991) / 프로그래머스: [1차]다트 게임(Lv.1)  
-  
+28주차 - 백준: 숨바꼭질(1697), 트리 순회(1991) / 프로그래머스: [1차]다트 게임(Lv.1)
+
 ### 👶🏻 Weekly Study - Renewal Version 🍼
+
 💻 **29주차**  
 &nbsp;&nbsp;🍗 백준: 트리의 부모 찾기(11725), 숨바꼭질(6118) / 프로그래머스: [1차]비밀지도(Lv.1)  
 &nbsp;&nbsp;🐤 백준: Hello World(2557), A+B(1000), A-B(1001)  
 💻 **30주차**  
 &nbsp;&nbsp;🍗 백준: 테트로미노(14500) / 프로그래머스: 숫자 짝꿍(Lv.1)  
-&nbsp;&nbsp;🐤 백준: A×B(10998), A/B(1008), 사칙연산(10869)  
+&nbsp;&nbsp;🐤 백준: A×B(10998), A/B(1008), 사칙연산(10869)
