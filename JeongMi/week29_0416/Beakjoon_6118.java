@@ -1,3 +1,4 @@
+// 백준 - 숨바꼭질(6118)
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
@@ -9,21 +10,23 @@ import java.util.StringTokenizer;
 public class Beakjoon_6118 {
   static int N,M;
   static ArrayList<Integer> list[];
-  static boolean isVisited[];
+  static boolean visited[];
   static int destination,distance,cnt;
+
   public static void main(String[] args) throws IOException {
     BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
     StringTokenizer st = new StringTokenizer(br.readLine());
 
-    N = Integer.parseInt(st.nextToken()); //헛간의 개수
-    M = Integer.parseInt(st.nextToken()); //M개의 양방향 길
+    N = Integer.parseInt(st.nextToken()); // 헛간의 개수
+    M = Integer.parseInt(st.nextToken()); // M개의 양방향 길
 
-    list = new ArrayList[N+1];
-    isVisited = new boolean[N+1];
+    list = new ArrayList[N + 1];
+    visited = new boolean[N + 1];
 
-    for(int i=0;i<=N;i++) list[i] = new ArrayList<>();
+    for(int i = 0; i <= N; i++)
+      list[i] = new ArrayList<>();
 
-    for(int i=0;i<M;i++){
+    for(int i = 0; i < M; i++) {
       st = new StringTokenizer(br.readLine());
       int start = Integer.parseInt(st.nextToken());
       int end = Integer.parseInt(st.nextToken());
@@ -33,36 +36,36 @@ public class Beakjoon_6118 {
     }
     
     bfs();
-    System.out.println(destination+" "+distance+" "+cnt);
-}
+    System.out.println(destination + " " + distance + " " + cnt);
+  }
 
-private static void bfs() {
+  private static void bfs() {
     Queue<int []> q = new LinkedList<>();
-    isVisited[1] = true;
+    visited[1] = true;
     q.offer(new int[]{1,0});
 
-    while(!q.isEmpty()){
-        int arr[] = q.poll();
-        int now = arr[0];
-        int next = arr[1];
+    while(!q.isEmpty()) {
+      int arr[] = q.poll();
+      int now = arr[0];
+      int next = arr[1];
 
-        if(next > distance){
-            distance = next;
-            destination = now;
-            cnt = 1;
-        }
-        else if(next == distance){
-            if(destination > now) destination = now;
-            cnt++;
-        }
+      if(next > distance){
+        distance = next;
+        destination = now;
+        cnt = 1;
+      }
+      else if(next == distance){
+        if(destination > now) destination = now;
+        cnt++;
+      }
 
-        for(int i=0; i < list[now].size();i++){
-            int next_next = list[now].get(i);
-            if(!isVisited[next_next]){
-                isVisited[next_next] = true;
-                q.offer(new int[]{next_next,next+1});
-            }
+      for(int i = 0; i < list[now].size(); i++){
+        int next_next = list[now].get(i);
+        if(!visited[next_next]){
+          visited[next_next] = true;
+          q.offer(new int[]{next_next,next+1});
         }
+      }
     }
   }
 }
