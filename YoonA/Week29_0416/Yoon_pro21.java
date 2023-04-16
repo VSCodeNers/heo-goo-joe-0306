@@ -2,8 +2,7 @@ import java.util.*;
 
 class Yoon_pro21 {
     public String[] solution(int n, int[] arr1, int[] arr2) {
-        String answer[] = {};
-        String map[] = new String[n];   // 전체 지도
+        String answer[] = new String[n];
         
         for (int i = 0; i < n; i++) {
             // toBinaryString: 10진수 -> 2진수 변환
