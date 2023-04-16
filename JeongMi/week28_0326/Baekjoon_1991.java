@@ -58,7 +58,7 @@ public class Baekjoon_1991 {
       if(!visited[nextPosition]) {
         visited[nextPosition] = true;
         preResult.append(nodes[prePosition][1]);
-        preorderTraversal(nextPosition); // 오른쪽 노드로 탐방
+        preorderTraversal(nextPosition); // 왼쪽 노드로 탐방
       }
     }
 
@@ -82,7 +82,7 @@ public class Baekjoon_1991 {
       // 방문한 적이 없는 경우
       if(!visited[nextPosition]) {
         visited[nextPosition] = true;
-        inorderTraversal(nextPosition); // 오른쪽 노드로 탐방
+        inorderTraversal(nextPosition); // 왼쪽 노드로 탐방
       }
     }
 
@@ -108,7 +108,7 @@ public class Baekjoon_1991 {
       // 방문한 적이 없는 경우
       if(!visited[nextPosition]) {
         visited[nextPosition] = true;
-        postorderTraversal(nextPosition); // 오른쪽 노드로 탐방
+        postorderTraversal(nextPosition); // 왼쪽 노드로 탐방
         postResult.append(nodes[prePosition][1]);
       }
     }

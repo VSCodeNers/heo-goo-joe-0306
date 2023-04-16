@@ -22,7 +22,7 @@ public class Baekjoon_1697 {
     Queue<Integer> queue = new LinkedList<>();
     queue.add(N);
     visited[N] = 1;
-
+    
     while(!queue.isEmpty()) {
       int prePosition = queue.remove();
 
