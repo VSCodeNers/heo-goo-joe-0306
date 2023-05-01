@@ -10,8 +10,8 @@ public class Yoon_BJ14500 {
     static boolean check[][];         // 방문 여부
 
     // 상하좌우
-    static int dx[] = {0, -1, 1, 0};
-    static int dy[] = {-1, 0, 0, 1};
+    static int dx[] = {-1,1,0,0};
+	static int dy[] = {0,0,-1,1};
 
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
@@ -34,9 +34,9 @@ public class Yoon_BJ14500 {
         for(int i = 0; i < N; i++) {
 			for(int j = 0; j < M; j++) {
 				check[i][j] = true;
-				DFS(i, j, 0, 0);
+				DFS(i, j, 1, tetromino[i][j]);
 				check[i][j] = false;
-                checkTetro(i, j);
+                // checkTetro(i, j);
 			}
 		}
 
@@ -55,40 +55,23 @@ public class Yoon_BJ14500 {
             int dxx = x + dx[i];
             int dyy = y + dy[i];
 
+            // 범위 밖이면 패스
             if (dxx < 0 || dxx >= N || dyy < 0 || dyy >= M) continue;
 
             // 방문하지 않았다면? => 방문 여부 체크해주고 탐색 ㄱ
-            if (!check[dxx][dyy]) {
-                check[dxx][dyy] = true;
-                DFS(dxx, dyy, cnt + 1, sum + tetromino[x][y]);
-                check[dxx][dyy] = false;
-            }
+            if(!check[dxx][dyy]) {
+				// ㅗ 모양 만들기 위해서는 2번째 칸에서 탐색 한번 더 진행
+				if(cnt == 2) {
+					check[dxx][dyy] = true;
+					DFS(x, y, cnt + 1, sum + tetromino[dxx][dyy]);
+					check[dxx][dyy] = false;
+				}
+
+				check[dxx][dyy] = true;
+                DFS(dxx, dyy, cnt + 1, sum + tetromino[dxx][dyy]);
+				check[dxx][dyy] = false;
+			}
         }
-    }
-
-    public static void checkTetro(int x, int y) {
-        int sum = tetromino[x][y];
-        int min = Integer.MAX_VALUE;
-        int cnt = 0;
-
-        for (int i = 0; i < 4; i++) {
-            int dxx = x + dx[i];
-            int dyy = y + dy[i];
-
-            if (dxx < 0 || dxx >= N || dyy < 0 || dyy >= M) continue;
-
-            sum += tetromino[dxx][dyy];
-            min = Math.min(min, tetromino[dxx][dyy]);
-            cnt++;
-        }
-        
-        // cnt가 4개면 + 모양이니까.. 그럼 안되잖아.. 그래서 제일 작은 거 하나 빼서 ㅗ 모양 만들어줌.
-        if (cnt == 4) {
-            sum -= min;
-            return;
-        }
-
-        max = Math.max(max, sum);
     }
 }
 /*
