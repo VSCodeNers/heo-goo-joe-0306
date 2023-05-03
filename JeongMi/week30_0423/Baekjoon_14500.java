@@ -4,7 +4,7 @@ import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
-public class Beakjoon_14500 {
+public class Baekjoon_14500 {
   static int N, M;
   static int[][] paper;
   static boolean[][] visited;
