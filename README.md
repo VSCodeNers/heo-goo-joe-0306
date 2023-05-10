@@ -15,12 +15,14 @@ Start: 2022.03.06.일
 | <img width="160px" src="https://avatars.githubusercontent.com/u/101046600?v=4" /> | <img width="160px" src="https://avatars.githubusercontent.com/u/76805879?v=4" /> | <img width="160px" src="https://avatars.githubusercontent.com/u/102344608?v=4" />
 | [@yoona1110n](https://github.com/yoona1110)  |  [@jung0115](https://github.com/jung0115)  |  [@Gu-sunhwa](https://github.com/Gu-sunhwa)  |
 | 한림대학교 빅데이터학과 20학번 | 경상대학교 컴퓨터과학과 20학번 | 한림대학교 |
+| 2022.03.06.일 ~ | 2022.03.06.일 ~ | 2022.05.01.일 ~ 2022.07.31.일 |
 
 | 한병재 | 김민석 |
 | :---: | :---: |
 | <img width="160px" src="https://avatars.githubusercontent.com/u/125646787?v=4" /> | |
 |  [@Hanbyungjae](https://github.com/Hanbyungjae)  | |
 | 한림대학교 | 한림대학교 |
+| 2023.04.16.일 ~ | 2023.05.14.일 ~ |
   
 ### 👵🏻 Weekly Study - Old Version 👴🏻
 
