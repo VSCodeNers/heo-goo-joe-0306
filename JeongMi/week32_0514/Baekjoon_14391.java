@@ -61,7 +61,7 @@ public class Baekjoon_14391 {
     int sum = 0;   // 총합
     int piece = 0; // 조각의 합
 
-    // 가로 조각
+    // 가로 조각 계산
     for(int i = 0; i < N; i++) {
       piece = 0; // 조각 합 초기화
       for(int j = 0; j < M; j++) {
@@ -81,7 +81,7 @@ public class Baekjoon_14391 {
       sum += piece;
     }
 
-    // 세로 조각
+    // 세로 조각 계산
     for(int i = 0; i < M; i++) {
       piece = 0; // 조각 합 초기화
       for(int j = 0; j < N; j++) {
