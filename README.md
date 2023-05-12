@@ -20,8 +20,8 @@ Start: 2022.03.06.일
 
 | 한병재 | 김민석 |
 | :---: | :---: |
-| <img width="200px" src="https://avatars.githubusercontent.com/u/125646787?v=4" /> | |
-|  [@Hanbyungjae](https://github.com/Hanbyungjae)  | |
+| <img width="200px" src="https://avatars.githubusercontent.com/u/125646787?v=4" /> | <img width="200px" src="https://avatars.githubusercontent.com/u/124144536?v=4" /> |
+|  [@Hanbyungjae](https://github.com/Hanbyungjae)  |  [@mins8578](https://github.com/mins8578)  |
 | 한림대학교 빅데이터전공 20학번 | 한림대학교 빅데이터전공 20학번 |
 | 2023.04.16.일 ~ | 2023.05.14.일 ~ |
 
