@@ -2,10 +2,6 @@
 import java.util.Arrays;
 
 class Solution {
-  public int solution(String[] babbling) {
-    return 0;
-  }
-
   // 첫 번째 방법 -- 시간 초과
   public int Solution1() {
     // 빵 - 야채 - 고기 - 빵: 1231
