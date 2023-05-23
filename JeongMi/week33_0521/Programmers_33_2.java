@@ -1,6 +1,5 @@
 // 프로그래머스 - 과일 장수(Lv.1)
 import java.util.Arrays;
-import java.util.Collections;
 
 class Solution {
   public int solution(int k, int m, int[] score) {
