@@ -1,6 +1,8 @@
 // 프로그래머스 - 멀리 뛰기(Lv.2)
-// 1칸 이동 - 1칸 전에서 오는 경우
-// 2칸 이동 - 2칸 전에서 오는 경우
+/*
+  1칸 이동 - 1칸 전에서 오는 경우
+  2칸 이동 - 2칸 전에서 오는 경우
+*/
 class Solution {
     var dp: MutableList<Long> = mutableListOf<Long>()
     fun solution(n: Int): Long {
