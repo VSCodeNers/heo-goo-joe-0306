@@ -29,7 +29,7 @@ Start: 2022.03.06.일
 
 ---
   
-[**1~28주차**](https://github.com/VSCodeNers/heo-goo-joe-0306/wiki/%F0%9F%91%B5%F0%9F%8F%BB-Weekly-Study---Old-Version-%F0%9F%91%B4%F0%9F%8F%BB)
+[**🔗 1~28주차**](https://github.com/VSCodeNers/heo-goo-joe-0306/wiki/%F0%9F%91%B5%F0%9F%8F%BB-Weekly-Study---Old-Version-%F0%9F%91%B4%F0%9F%8F%BB)
 
 ---
 
