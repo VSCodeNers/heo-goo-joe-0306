@@ -35,7 +35,6 @@ public class Baekjoon_16198 {
       return;
     }
 
-    int cnt = 0;
     for(int i = 0; i < N; i++) {
       // 지우지 않은 수
       if(!deleted[i]) {
