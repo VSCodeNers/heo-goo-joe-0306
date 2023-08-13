@@ -1,4 +1,4 @@
-# 👩🏻‍💻 Algorithm Study 👨🏻‍💻
+# 👩🏻‍💻 Java Study 👨🏻‍💻
 in [BaekJoon](https://www.acmicpc.net/), [Programmers](https://school.programmers.co.kr/learn/challenges?)  
   
 Language: Java, ~~Kotlin~~  
