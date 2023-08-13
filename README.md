@@ -1,7 +1,7 @@
 # 👩🏻‍💻 Algorithm Study 👨🏻‍💻
 in [BaekJoon](https://www.acmicpc.net/), [Programmers](https://school.programmers.co.kr/learn/challenges?)  
   
-Language: Java~~, Kotlin~~  
+Language: Java, ~~Kotlin~~  
 Start: 2022.03.06.일
 <div align="center">
 
@@ -17,7 +17,7 @@ Start: 2022.03.06.일
 | [@yoona1110](https://github.com/yoona1110)  |  [@jung0115](https://github.com/jung0115)  |  [@Gu-sunhwa](https://github.com/Gu-sunhwa)  |
 | 한림대학교 빅데이터전공 20학번 | 경상대학교 컴퓨터과학과 20학번 | 한림대학교 반도체전공 20학번 |
 | 2022.03.06.일 ~ | 2022.03.06.일 ~ | 2022.05.01.일 ~ 2022.07.31.일 |
-| Java | Java~~, Kotlin~~ | Java |
+| Java | Java, ~~Kotlin~~ | Java |
 
 | 한병재 | 김민석 |
 | :---: | :---: |
