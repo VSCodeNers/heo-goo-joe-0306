@@ -18,7 +18,7 @@ public class Yoon_BJ10610 {
 		char charArr[] = str.toCharArray();
 		Arrays.sort(charArr);	// 숫자 하나하나 잘라서 오름차순 정렬
 
-		// 오름차순 정렬이니까.. 맨 끝 원소부터 돌면서 더해줌
+		// 정렬이니까.. 맨 끝 원소부터 돌면서 더해줌
 		for(int i = charArr.length - 1; i >= 0; i--) {
 			int num = charArr[i] - '0';
 			sum += num;
