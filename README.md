@@ -2,7 +2,7 @@
 in [BaekJoon](https://www.acmicpc.net/), [Programmers](https://school.programmers.co.kr/learn/challenges?)  
    
 Language: Java  
-Start: 2022.03.06.일
+Start: 2022.03.06.일 ~ 2023.11.04.토
 <div align="center">
 
   [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fjung0115%2Fheo-goo-joe-0306&count_bg=%233D95C8&title_bg=%234E4D7C&icon=java.svg&icon_color=%23DCDCDC&title=hits&edge_flat=false)](https://hits.seeyoufarm.com)
@@ -11,21 +11,13 @@ Start: 2022.03.06.일
 ---
 
 ### 👨‍👩‍👧‍👦 Members 👨‍👩‍👧‍👦
-| 허윤아 | 조정미 |
-| :---: | :---: |
-| <img width="200px" src="https://avatars.githubusercontent.com/u/101046600?v=4" /> | <img width="200px" src="https://avatars.githubusercontent.com/u/76805879?v=4" /> |
-| [@yoona1110](https://github.com/yoona1110)  |  [@jung0115](https://github.com/jung0115)  |
-| 한림대학교 빅데이터전공 20학번 | 경상대학교 컴퓨터과학과 20학번 |
-| 2022.03.06.일 ~ | 2022.03.06.일 ~ |
-
-<br/>
-
-#### 👋🏻
 | 이름 | 소속 | Github ID | 스터디 기간 |
 | :--- | :--- | :--- | :--- |
-| 구선화 | 한림대학교 빅데이터전공 20학번 | [@Gu-sunhwa](https://github.com/Gu-sunhwa) | 2022.05.01.일 ~ 2022.07.31.일 |
-| 한병재 | 한림대학교 빅데이터전공 20학번 | [@Hanbyungjae](https://github.com/Hanbyungjae) | 2023.04.16.일 ~ 2023.07.02.일 |
-| 김민석 | 한림대학교 빅데이터전공 20학번 | [@mins8578](https://github.com/mins8578) | 2023.08.13.일 ~ 2023.08.27.일 |
+| **허윤아** | 한림대학교 빅데이터전공 20학번 | [@yoona1110](https://github.com/yoona1110) | 2022.03.06.일 ~ 2023.11.04.토 (약 1년 8개월) |
+| **조정미** | 경상대학교 컴퓨터과학과 20학번 | [@jung0115](https://github.com/jung0115) | 2022.03.06.일 ~ 2023.11.04.토 (약 1년 8개월) |
+| 구선화 | 한림대학교 빅데이터전공 20학번 | [@Gu-sunhwa](https://github.com/Gu-sunhwa) | 2022.05.01.일 ~ 2022.07.31.일 (약 3개월) |
+| 한병재 | 한림대학교 빅데이터전공 20학번 | [@Hanbyungjae](https://github.com/Hanbyungjae) | 2023.04.16.일 ~ 2023.07.02.일 (약 3개월 반) |
+| 김민석 | 한림대학교 빅데이터전공 20학번 | [@mins8578](https://github.com/mins8578) | 2023.08.13.일 ~ 2023.08.27.일 (약 2주) |
 
 ---
 
