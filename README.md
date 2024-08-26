@@ -2,7 +2,7 @@
 in [BaekJoon](https://www.acmicpc.net/), [Programmers](https://school.programmers.co.kr/learn/challenges?)  
    
 Language: Java  
-Period: 2022.03.06.일 ~ 2023.11.04.토 (약 1년 8개월)  
+Period: 2022.03.06.일 ~ 2023.11.04.토 (약 1년 8개월) / 2024.08.26.월 ~  
 <div align="center">
 
   [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fjung0115%2Fheo-goo-joe-0306&count_bg=%233D95C8&title_bg=%234E4D7C&icon=java.svg&icon_color=%23DCDCDC&title=hits&edge_flat=false)](https://hits.seeyoufarm.com)
@@ -146,3 +146,7 @@ Period: 2022.03.06.일 ~ 2023.11.04.토 (약 1년 8개월)
 🌞 **Algorithm** 백준: 문자열 반복(2675), 단어의 개수(1152), 상수(2908)  
 - [x] **49주차** | 2023.10.29.일  
 🌝 **Coding Test** 백준: A와 B 2(12919) / 프로그래머스: 주식가격(Lv.2), 기능개발(Lv.2)  
+  
+###### 잠시 재개: [허윤아](https://github.com/yoona1110), [조정미](https://github.com/jung0115)
+- [x] **50주차** | 2024.08.26.월 ~ 2024.09.01.일  
+백준: [음식 평론가(1188)](https://www.acmicpc.net/problem/1188)  
